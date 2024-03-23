@@ -1,0 +1,201 @@
+
+@import url('https://fonts.cdnfonts.com/css/shine-bubble-deco');
+@import url('https://fonts.cdnfonts.com/css/great-times');
+@import url('https://fonts.cdnfonts.com/css/birthday-boy');
+
+body {
+    font-family: 'Shine Bubble Deco', sans-serif;
+    background-color: #AEC3AE;
+}
+main{
+   font-family: 'Shine Bubble Deco', sans-serif;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+h2{
+    font-family: 'Shine Bubble Deco', sans-serif;
+}
+header p {
+    font-size: 50px;
+    color: #94A684;
+
+}
+.button {
+    background-color: #E4E4D0;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 20px;
+    display: block;
+
+}
+
+.button:hover {
+    background-color: #E4E4D0;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+nav {
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    border-radius: 50px;
+    background-color: #94A684;
+    justify-content: space-between;
+    font-family: 'Shine Bubble Deco', sans-serif;
+    font-size: 50px; 
+                                                
+}
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-right: 100px;
+}
+
+.nav-link:hover {
+    color: #AEC3AE;
+    font-size: 25px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+h1::before {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+h1::after {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.post-text {
+    font-size: 30px;
+    font-family: 'Birthday Boy', sans-serif;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.post:hover {
+    background-color:#94A684;
+}
+
+.post:hover h2 {
+    color: white;
+    font-size: 25px;
+}
+
+.img-hit {
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 50px;
+}
+
+.post:hover .post-img {
+    background-color: white;
+}
+
+.post:hover .img-hit {
+    border: 5px dotted orangered;
+    border-radius: 50%;
+}
+
+.post:hover .post-text {
+    font-size: 25px;
+}
+
+.post:hover .article-but {
+    border: 5px solid #AEC3AE;
+    background-color: white;
+    color: #AEC3AE;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #AEC3AE;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+
+.social {
+    margin: 0px 0px 20px 25px;
+    display: block;
+    width: 50px;
+}
+
+.social:hover{
+    border-bottom: 10px double orange;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.address::before {
+    content: url("https://mars.algoritmika.org/uploads/2021/03/home_0_1616091816.svg");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tel::before {
+    content: url("https://mars.algoritmika.org/uploads/2021/03/tel_0_1616091817.svg");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
